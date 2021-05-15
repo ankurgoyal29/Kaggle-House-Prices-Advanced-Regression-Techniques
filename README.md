@@ -24,6 +24,19 @@ We trained and tested various versions of the models described with different co
 
 ### Results:
 
+
+Model|K-Fold Score|RMSE
+-----|------------|----
+Linear Regression| 77%| 0.17908
+Ridge Regression | 90% | 0.12821 
+Lasso|90% |0.12643
+Random Forest Regression|88% | 0.12821 
+SVR Regression|86%|0.13021
+Xgboost Regression| 91%| 0.11937 
+Model Stacking| 92% |0.11401 
+Model Blending|93%|0.11323
+
+
 Overall our models consistently had RMSE values between 0.11323 and 0.17908. Our cross validation scores were indicative of our Kaggle scores. We took the predictions from each of our best base models (Lasso, Xgboost, SVR, Model Stacking) as the features to use for the next level. We observed out that improving the base models has significant effect on stacked model. Regressors – Lasso, SVR, RF, Ridge; Meta_Regressor - LR By further blending stacked regressor with lasso and svr, we achieved our best score of 0.11340 RMSE.
 
 ### Observations/Conclusions :
