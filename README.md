@@ -55,4 +55,10 @@ variance in their constituent learners.
 7. Understanding your features can help you to improve a model
 8. PCA helped reduce our feature set to small number of non-collinear features.
 
+### Challenges:
+1. Overfitting was a challenge. But can be addressed via regularization and ensemble methods.
+2. Small size of dataset made some of the more complex models like Neural Networks ineffective
+3. Missing data - Different features required different handling techniques, which took
+experimenting and benchmarking to get right.
+
 
