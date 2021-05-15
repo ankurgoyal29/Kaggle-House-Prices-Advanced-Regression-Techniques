@@ -1,10 +1,10 @@
 # Kaggle-House-Prices-Advanced-Regression-Techniques
 
-####Introduction
-######Goal:
+#### Introduction
+#### Goal:
 Our goal was to predict the final price for each house using advanced regression techniques.
-######Data:
+#### Data:
 A Kaggle competition, based on property data in Ames, Iowa.
-######Evaluation:
+#### Evaluation:
 Root-Mean-Square-Error (RMSE).
 
