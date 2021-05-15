@@ -1,6 +1,6 @@
 # Kaggle-House-Prices-Advanced-Regression-Techniques
 
-#### Introduction
+### Introduction
 #### Goal:
 Our goal was to predict the final price for each house using advanced regression techniques.
 #### Data:
